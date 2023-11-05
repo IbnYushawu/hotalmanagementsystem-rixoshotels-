@@ -11,7 +11,7 @@ function BookRoomBox(props) {
   const data = props.data;
   const myaccount = useSelector((data) => data.authuser);
   return (
-    <div className="Roomcard" onClick={() => {}}>
+    <div className="Roomcard-search" onClick={() => {}}>
       <img src={data.image} alt="" className="card-room-img" />
       <div className="room-description">
         <div className="row-btw" style={{ marginTop: "10px" }}>

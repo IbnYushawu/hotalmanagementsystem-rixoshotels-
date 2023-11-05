@@ -1113,6 +1113,85 @@
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.Roomcard-search{
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  margin-top: 20px;
+  cursor: pointer;
+  height: 350px;
+}
+
+.Roomcard-search-a {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Roomcard-search-a:hover {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  background-color: rgb(236, 236, 236);
+}
+
+.Roomcard-search:hover {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  background-color: rgb(236, 236, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Roomcard {
   transition: 2s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
@@ -1124,7 +1203,7 @@
   width: 98%;
   margin-top: 20px;
   cursor: pointer;
-  height: 500px;
+  height: 420px;
 }
 
 .Roomcard-a {
@@ -1335,6 +1414,7 @@
   color: rgb(0, 0, 0);
   margin-right: 20px;
   margin-left: 5px;
+  font-size: 13px;
 }
 
 .book-now {
@@ -1952,6 +2032,20 @@
     display: none;
   }
   .Roomcard {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+
+
+  .Roomcard-search {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
       rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
     padding: 5px;
