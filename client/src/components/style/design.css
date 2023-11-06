@@ -2429,6 +2429,15 @@ height: 600px;
   .profile-nav {
     width: 100%;
   }
+
+  .testimony-style {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+  
   .card-img {
     display: flex;
     flex-direction: row;
