@@ -34,6 +34,8 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="mainLayoutb">
+      
+     
       <div className="desktop">
         <div
           className="front_home"
@@ -57,18 +59,13 @@ const Home = () => {
         </div>
       </div>
 
-      {showmennu ? (
-        <div className="mobile">
-          <MenuNav setmenu={setmenu} />
-        </div>
-      ) : null}
 
       <div className="mobile">
         <div
           className="front_home"
           style={{
-            backgroundImage:
-              "url(https://res.cloudinary.com/dewkx66gl/image/upload/v1695897589/view_wy0gvb.jpg)",
+      
+            
             minHeight: `${window.innerHeight}px`,
           }}
         >
@@ -83,6 +80,11 @@ const Home = () => {
             </div>
           </div>
         </div>
+        {showmennu ? (
+      
+      <MenuNav setmenu={setmenu} />
+   
+  ) : null}
       </div>
 
       <Rooms />

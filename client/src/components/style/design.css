@@ -778,7 +778,7 @@
 
 .imagecover {
   width: 100%;
-  background-color: rgba(11, 7, 17, 0.3);
+  background-color: rgba(35, 72, 77, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1113,18 +1113,7 @@
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.Roomcard-search{
+.Roomcard-search {
   transition: 2s ease-in-out;
   box-shadow: rgba(24, 24, 24, 0.1) 0px 10px 15px 1px,
     rgba(17, 17, 17, 0.1) 0px 4px 6px 1px;
@@ -1135,7 +1124,7 @@
   width: 98%;
   margin-top: 20px;
   cursor: pointer;
-  height: 350px;
+  min-height: 350px;
 }
 
 .Roomcard-search-a {
@@ -1164,33 +1153,45 @@
   background-color: rgb(236, 236, 236);
 }
 
+.Roomcard-service {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(24, 24, 24, 0.1) 0px 10px 15px 1px,
+    rgba(17, 17, 17, 0.1) 0px 4px 6px 1px;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  margin-top: 20px;
+  cursor: pointer;
+  min-height: 320px;
+}
 
+.Roomcard-service-a {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Roomcard-service-a:hover {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  background-color: rgb(236, 236, 236);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Roomcard-service:hover {
+  transition: 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+  background-color: rgb(236, 236, 236);
+}
 
 .Roomcard {
   transition: 2s ease-in-out;
@@ -1203,7 +1204,7 @@
   width: 98%;
   margin-top: 20px;
   cursor: pointer;
-  height: 420px;
+  min-height: 420px;
 }
 
 .Roomcard-a {
@@ -1881,7 +1882,7 @@
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-  rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
+    rgba(0, 0, 0, 0.15) 0px 4px 6px -2px;
 }
 
 .b-header {
@@ -2000,11 +2001,12 @@
   .attraction-c {
     padding: 0px;
     font-family: Roboto condensed;
-    font-size: 17px;
+    font-size: 13px;
     justify-content: space-between;
     align-items: start;
-    width: 100%;
-    min-height: 400px;
+    width: 90%;
+    min-height: 350px;
+    margin-top: 30px;
   }
   .image-client {
     width: 99%;
@@ -2026,7 +2028,7 @@
     display: flex;
     flex-direction: column;
     width: 95%;
-    padding: 10px;
+    padding: 10px;margin-top: 60px;
   }
   .attraction-image-d {
     display: none;
@@ -2041,10 +2043,8 @@
     margin-top: 20px;
     cursor: pointer;
     margin-left: 5px;
-    height: 600px;
+    min-height: 430px;
   }
-
-
 
   .Roomcard-search {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
@@ -2054,7 +2054,20 @@
     flex-direction: column;
     width: 97%;
     margin-top: 5px;
-height: 600px;
+    min-height: 430px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .Roomcard-service {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-top: 5px;
+    min-height: 370px;
     cursor: pointer;
     margin-left: 5px;
   }
@@ -2271,7 +2284,6 @@ height: 600px;
   }
 
   .clientRate {
-  
     width: 95%;
   }
   .profile_cont {
@@ -2438,12 +2450,11 @@ height: 600px;
     display: flex;
     flex-direction: column;
     width: 100%;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .image-client {
     width: 90%;
-   
   }
   .card-img {
     display: flex;
