@@ -107,7 +107,7 @@ const ConferenceBook = () => {
               </h1>
             </div>
             <h1 className="intro_header">
-              Our meeting rooms in Geneva provide the perfect backdrop to
+              Our meeting rooms in Rixos provide the perfect backdrop to
               brainstorm with colleagues, impress clients, or hold productive
               training sessions. Our meeting spaces can be booked by the hour or
               day, and our on-site support team can provide support at every
@@ -164,7 +164,7 @@ const ConferenceBook = () => {
                 {bookbtm ? (
                   <div
                     className="row-styles"
-                    style={{ marginTop: "30px", marginLeft: "30px" }}
+                    style={{ marginTop: "20px", marginLeft: "30px" }}
                   >
                     <div
                       className="c-btw-b"
@@ -186,7 +186,7 @@ const ConferenceBook = () => {
                 ) : (
                   <div
                     className="row-styles"
-                    style={{ marginTop: "30px", marginLeft: "30px" }}
+                    style={{ marginTop: "20px", marginLeft: "30px" }}
                   >
                     {loading ? (
                       <div className="c-btw">

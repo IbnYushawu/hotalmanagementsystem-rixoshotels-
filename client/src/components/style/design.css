@@ -1204,7 +1204,7 @@
   width: 98%;
   margin-top: 20px;
   cursor: pointer;
-  min-height: 420px;
+  height: 420px;
 }
 
 .Roomcard-a {
@@ -2043,7 +2043,7 @@
     margin-top: 20px;
     cursor: pointer;
     margin-left: 5px;
-    min-height: 430px;
+    height: 600px;
   }
 
   .Roomcard-search {
