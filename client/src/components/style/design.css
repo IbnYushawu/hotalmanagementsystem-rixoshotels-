@@ -2270,6 +2270,10 @@ height: 600px;
     align-items: center;
   }
 
+  .clientRate {
+  
+    width: 95%;
+  }
   .profile_cont {
     display: flex;
     flex-direction: column;
@@ -2437,7 +2441,10 @@ height: 600px;
   align-items: center;
   justify-content: center;
   }
-  
+  .image-client {
+    width: 90%;
+   
+  }
   .card-img {
     display: flex;
     flex-direction: row;
