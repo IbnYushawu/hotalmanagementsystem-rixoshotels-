@@ -98,7 +98,7 @@ const SpecialDBook = () => {
           <h1 className="header-h1">Meeting space in Rixos Hotels <span style={{color:"chocolate",fontSize:"100px",fontWeight:"bold"}}>.</span></h1>
       
           </div>
-               <h1 className="intro_header">Our meeting rooms in Geneva provide the perfect backdrop to brainstorm with colleagues, impress clients, or hold productive training sessions. Our meeting spaces can be booked by the hour or day, and our on-site support team can provide support at every turn. Select a suitable time and experience greatness</h1>
+               <h1 className="intro_header">Our meeting rooms in  Rixos provide the perfect backdrop to brainstorm with colleagues, impress clients, or hold productive training sessions. Our meeting spaces can be booked by the hour or day, and our on-site support team can provide support at every turn. Select a suitable time and experience greatness</h1>
            
             
             <div className="row-styles" style={{marginTop:"50px"}}> 

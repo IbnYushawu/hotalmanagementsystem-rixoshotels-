@@ -461,7 +461,7 @@ const SearchResult = () => {
             </div>
 
             <div
-              className="header_search_item"
+              
               onClick={CloseCalender}
               style={{ marginTop: "30px" }}
             >

@@ -70,7 +70,7 @@ const SearchBox = () => {
   }
   return (
     <div className="front_form-search">
-      <div className="header_search_item" onClick={CloseCalender}>
+      <div  onClick={CloseCalender}>
         <Select
           style={{
             minWidth: "160px",
@@ -144,7 +144,7 @@ const SearchBox = () => {
       </div>
 
       <div className="header_search_item-c">
-        <div className="header_search_item">
+      <div className="header_search_item" style={{padding:"10px 0 10px 0"}}>
           <FaCalendarAlt color="chocolate" className="header_search_icon" />
           <span
             style={{ marginLeft: "10px" }}
@@ -193,7 +193,7 @@ const SearchBox = () => {
         </div>
       </div>
 
-      <div className="header_search_item" onClick={CloseCalender}>
+      <div onClick={CloseCalender}>
         <button
           className="header_search_btn"
           type="button"

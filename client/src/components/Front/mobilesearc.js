@@ -145,7 +145,7 @@ const MobileSearchBox = () => {
       </div>
 
       
-        <div className="header_search_item"   onClick={OpenCalender}>
+        <div className="header_search_item"   onClick={OpenCalender} >
           <FaCalendarAlt color="chocolate" className="header_search_icon" />
           <span
             style={{ marginLeft: "10px" }}
