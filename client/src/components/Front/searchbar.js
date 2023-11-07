@@ -144,7 +144,7 @@ const SearchBox = () => {
       </div>
 
       <div className="header_search_item-c">
-      <div className="header_search_item" style={{padding:"10px 0 10px 0"}}>
+      <div className="header_search_item-h" style={{padding:"10px 0 10px 0"}}>
           <FaCalendarAlt color="chocolate" className="header_search_icon" />
           <span
             style={{ marginLeft: "10px" }}
