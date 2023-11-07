@@ -23,6 +23,7 @@ import { PromptToastify, enableScroll, showToastify, stayDays } from "../utils/r
 import MobileTopNav from "../utils/mobilenav";
 import SkeletonLoading from "../skeletonLoading/SkeletonLoading";
 import SkeletonLoadingCards from "../skeletonLoading/SkeletonLoadingCards";
+import LoaderView from "../utils/loaderView";
 const SearchResult = () => {
   const dispatch = useDispatch();
   const { startDate, endDate, roomtype, person } = useParams();
@@ -509,7 +510,7 @@ const SearchResult = () => {
       <Footer />
     </div>:
    
-    <SkeletonLoadingCards/>
+    <LoaderView/>
 
       }
     </>
