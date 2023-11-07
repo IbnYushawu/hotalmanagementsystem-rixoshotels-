@@ -10,7 +10,7 @@ const SpecialOrder = (props) => {
       <div className="">
         {myAccount &&
         myAccount.account &&
-        myAccount.account.bookings.length > 0 ? (
+        myAccount.account.conference.length > 0 ? (
           myAccount.account.conference.map((book, index) => {
             return (
               <div key={index}>
