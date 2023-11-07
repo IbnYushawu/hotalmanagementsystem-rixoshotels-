@@ -632,7 +632,7 @@
   margin-left: 30px;
   margin-top: 40px;
   padding: 20px;
-border: 1px solid rgba(53, 50, 50, 0.3);
+  border: 1px solid rgba(53, 50, 50, 0.3);
   font-family: Roboto condensed;
   font-size: 15px;
   font-weight: bold;
@@ -722,8 +722,7 @@ border: 1px solid rgba(53, 50, 50, 0.3);
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 14px;
   background-color: rgb(243, 240, 240, 0.5);
   border: 1px solid rgba(111, 111, 114, 0.7);
   
@@ -2047,7 +2046,8 @@ border: 1px solid rgba(53, 50, 50, 0.3);
     display: flex;
     flex-direction: column;
     width: 95%;
-    padding: 10px;margin-top: 60px;
+    padding: 10px;
+    margin-top: 60px;
   }
   .attraction-image-d {
     display: none;
@@ -2077,7 +2077,7 @@ border: 1px solid rgba(53, 50, 50, 0.3);
     cursor: pointer;
     margin-left: 5px;
   }
-  
+
   .Roomcard-service {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
       rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;

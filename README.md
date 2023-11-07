@@ -1,6 +1,6 @@
 # Rixos Hotels Management System 🏨
-# LINK https://rixoshotels.netlify.app/
-# ADMIN DASHBOARD Link https://rixoshotels.netlify.app/admin/dashboard
+## LINK https://rixoshotels.netlify.app/
+## ADMIN DASHBOARD Link https://rixoshotels.netlify.app/admin/dashboard
 ![HOME](https://github.com/IbnYushawu/hotalmanagementsystem-rixoshotels-/assets/125495037/444d42c8-b595-4d6c-80a8-6d61f912074a)
 ![2023-11-06 02_05_48-](https://github.com/IbnYushawu/hotalmanagementsystem-rixoshotels-/assets/125495037/e7e82061-302e-4546-9147-94b639fe9d36)
 ![2023-11-06 02_06_11-](https://github.com/IbnYushawu/hotalmanagementsystem-rixoshotels-/assets/125495037/36341b4b-5273-4a3c-aa1f-f350f5d8269e)

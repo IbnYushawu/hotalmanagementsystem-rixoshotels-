@@ -144,8 +144,8 @@ const SearchBox = () => {
       </div>
 
       <div className="header_search_item-c">
-      <div className="header_search_item-h" style={{padding:"10px 0 10px 0"}}>
-          <FaCalendarAlt color="chocolate" className="header_search_icon" />
+      <div className="header_search_item-h" style={{padding:"10px 5px 10px 5px"}}>
+          <FaCalendarAlt color="chocolate"  onClick={OpenCalender} className="header_search_icon" />
           <span
             style={{ marginLeft: "10px" }}
             onClick={OpenCalender}
@@ -164,7 +164,7 @@ const SearchBox = () => {
             </span>
           ) : null}
         </div>
-        <div id="calender-id">
+        <div id="calender-id" className="dateshow">
           {openDate && (
             <DateRange
               editableDateInputs
