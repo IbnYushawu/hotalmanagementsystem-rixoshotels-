@@ -326,11 +326,11 @@ const PaymentSection = () => {
                                       }}
                                       className="instruction-btn-valid"
                                     >
-                                      <span>comfirm Payment</span>
+                                      <span>confirm Payment</span>
                                     </div>
                                   ) : (
                                     <div className="blank-btn">
-                                      <span>comfirm Payment</span>
+                                      <span>confirm Payment</span>
                                     </div>
                                   )}
                                 </>
