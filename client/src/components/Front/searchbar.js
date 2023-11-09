@@ -16,8 +16,8 @@ import { X } from "react-bootstrap-icons";
 import { useNavigate } from "react-router-dom";
 
 const SearchBox = () => {
-  const navigate=useNavigate();
-  let currentDate =new Date(Date.now());
+  const navigate = useNavigate();
+  let currentDate = new Date(Date.now());
   const tomorrowD = new Date(currentDate);
   tomorrowD.setDate(currentDate.getDate() + 1);
   const [dates, setDates] = useState([
@@ -28,12 +28,10 @@ const SearchBox = () => {
     },
   ]);
 
- 
   const [openDate, setOpenDate] = useState(false);
   const [openOption, setOpenOption] = useState(false);
 
   const [options, setOptions] = useState(1);
-
 
   const handleOptionBtn = (operation) => {
     if (operation === "minus") {
@@ -63,14 +61,14 @@ const SearchBox = () => {
   };
 
   const [roomtype, setroomtype] = useState("Any Room type");
-  const SearhValues = ()=>{
-   
-    navigate(`/rooms/search-results/${dates[0].startDate}/${dates[0].endDate}/${roomtype}/${options}`
-    )
-  }
+  const SearhValues = () => {
+    navigate(
+      `/rooms/search-results/${dates[0].startDate}/${dates[0].endDate}/${roomtype}/${options}`
+    );
+  };
   return (
     <div className="front_form-search">
-      <div  onClick={CloseCalender}>
+      <div onClick={CloseCalender}>
         <Select
           style={{
             minWidth: "160px",
@@ -144,16 +142,23 @@ const SearchBox = () => {
       </div>
 
       <div className="header_search_item-c">
-      <div className="header_search_item-h" style={{padding:"10px 5px 10px 5px"}}>
-          <FaCalendarAlt color="chocolate"  onClick={OpenCalender} className="header_search_icon" />
+        <div
+          className="header_search_item-h"
+          style={{ padding: "10px 5px 10px 5px" }}
+        >
+          <FaCalendarAlt
+            color="chocolate"
+            onClick={OpenCalender}
+            className="header_search_icon"
+          />
           <span
             style={{ marginLeft: "10px" }}
             onClick={OpenCalender}
             className="header_search_date"
           >
-            {`${format(dates[0].startDate, 'EE dd yyyy')} to ${format(
+            {`${format(dates[0].startDate, "EE dd yyyy")} to ${format(
               dates[0].endDate,
-              'EE dd yyyy'
+              "EE dd yyyy"
             )}`}
           </span>
           {openDate ? (
@@ -164,9 +169,9 @@ const SearchBox = () => {
             </span>
           ) : null}
         </div>
-      
-          {openDate ? 
-            <div id="calender-id" className="dateshow">
+
+        {openDate ? (
+          <div id="calender-id" className="dateshow">
             <DateRange
               editableDateInputs
               onChange={(item) => setDates([item.selection])}
@@ -175,10 +180,8 @@ const SearchBox = () => {
               className="header_search_calender"
               minDate={new Date()}
             />
-              </div>
-              : null
-          }
-      
+          </div>
+        ) : null}
       </div>
 
       <div className="header_search_item" onClick={CloseCalender}>
@@ -201,7 +204,7 @@ const SearchBox = () => {
           className="header_search_btn"
           type="button"
           onClick={() => {
-            SearhValues()
+            SearhValues();
           }}
         >
           Check availaility
