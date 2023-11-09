@@ -197,7 +197,7 @@ const SearchNav = (props) => {
                   </span>
                 ) : null}
               </div>
-              <div id="calender-id">
+              <div id="calender-id" className="dateshow">
                 {openDate && (
                   <DateRange
                     editableDateInputs

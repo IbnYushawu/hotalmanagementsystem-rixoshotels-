@@ -164,8 +164,9 @@ const SearchBox = () => {
             </span>
           ) : null}
         </div>
-        <div id="calender-id" className="dateshow">
-          {openDate && (
+      
+          {openDate ? 
+            <div id="calender-id" className="dateshow">
             <DateRange
               editableDateInputs
               onChange={(item) => setDates([item.selection])}
@@ -174,8 +175,10 @@ const SearchBox = () => {
               className="header_search_calender"
               minDate={new Date()}
             />
-          )}
-        </div>
+              </div>
+              : null
+          }
+      
       </div>
 
       <div className="header_search_item" onClick={CloseCalender}>

@@ -447,6 +447,13 @@
 .column-input {
   margin: 10px;
 }
+
+
+.dateshow{
+  border: 1px solid rgb(224, 224, 224);
+ 
+}
+
 .cardDebit {
   display: flex;
   flex-direction: column;

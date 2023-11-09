@@ -91,7 +91,7 @@ const BookingsPage = () => {
             )}`}
           </span>
         </div>
-        <div id="calender-id">
+        <div id="calender-id" className="dateshow">
           {openDate && (
             <div className="fixed-date">
               {" "}
