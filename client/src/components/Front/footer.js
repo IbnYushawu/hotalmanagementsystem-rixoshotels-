@@ -26,6 +26,7 @@ const Footer = () => {
           className="companyname-img"
         />{" "}
         <p className="aboutcompany">
+       
           At Rixos, we pride ourselves on delivering impeccable service that
           goes beyond your expectations. Whether you're here for business or
           leisure, we aim to make your stay with us truly exceptional

@@ -51,7 +51,7 @@ const SignInUser = () => {
                 navigate("/");
               }}
               alt=""
-              src="https://res.cloudinary.com/dewkx66gl/image/upload/v1695980190/pngwing.com_2_n6furk.png"
+              src="https://res.cloudinary.com/dewkx66gl/image/upload/v1699353634/20231107_102303_1_ed6ng2.png"
               className="companyname-img "
             />{" "}
       <p>Rixos  Login </p>
